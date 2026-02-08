@@ -9,6 +9,24 @@ import requests
 class Main:
     def __init__(self):
         self.GUILD_ID = input('[>] Guild ID: ')
+        self.GUILD_ID = input('[>] Guild ID:import json
+import os
+import threading
+import time
+
+import requests
+
+
+class Main:
+    def __init__(self):
+        self.GUILD_ID = input('[>] Guild ID: 1305008995022409768')
+        self.CHANNEL_ID = input('[>] Channel ID: 1469479977924821012')
+        self.MESSAGE_ID = input('[>] Message ID: 1469882703833731194')
+        REASON = input(
+            '\n[1] Illegal content\n'
+            '[2] Harassment\n'
+            '[3] Spam or phishing links\n'
+            '[4] Self-harm\n'
         self.CHANNEL_ID = input('[>] Channel ID: ')
         self.MESSAGE_ID = input('[>] Message ID: ')
         REASON = input(
